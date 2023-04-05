@@ -1,0 +1,17 @@
+{
+  "name": "twilio-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Quick demo of the twilio sms API",
+  "main": "index.js",
+  "scripts": {
+    "text": "node -r dotenv/config ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "twilio": "^4.9.0"
+  }
+}
